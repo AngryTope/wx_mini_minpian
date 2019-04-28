@@ -4,7 +4,7 @@
        <block wx:for="{{goodImgSrcs}}">
           <swiper-item>
             <view class="swiperImgView">
-              <image class="swiperImg" src="{{item.src}}" mode='{{imgModeWidthFix}}'></image>
+              <image class="swiperImg" src="{{item.src}}" mode="{{imgModeWidthFix}}"></image>
             </view>
           </swiper-item>
         </block>
@@ -18,8 +18,30 @@
   </view>
   <view class="goodDetailInfo">
     <text class="txtGoodDetailInfo">{{goodDetailInfo}}</text>
-    <block wx:for="{{goodDetailImg}}">
-      
-    </block>
+    <view class="goodImages">
+      <block wx:for="{{goodDetailImg}}">
+        <image class="itemImage" src="{{item.imgSrc}}" mode="{{imgModeWidthFix}}"></image>
+      </block>
+    </view>
+  </view>
+  <view class="fixedMenu">
+    <view class="menuIcon">
+      <image class="imgIcon" mode="imgModeScale" src="{{mallIconSrc}}"></image>
+      <text class="txtIcon">{{txtMallIcon}}</text>
+    </view>
+    <view class="menuIcon">
+      <image class="imgIcon" mode="imgModeScale" src="{{consultIconSrc}}"></image>
+      <text class="txtIcon">{{txtConsultIcon}}</text>
+    </view>
+    <view class="menuIcon">
+      <image class="imgIcon" mode="imgModeScale" src="{{cartIconSrc}}"></image>
+      <text class="txtIcon">{{txtCartIcon}}</text>
+    </view>
+    <view class="buyNow">
+      <text class="txtbuyNow">{{buyNow}}</text>
+    </view>
+    <view class="addCart">
+      <text class="txtAddCart">{{addCart}}</text>
+    </view>
   </view>
 </view>
