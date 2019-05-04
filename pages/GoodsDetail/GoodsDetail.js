@@ -41,5 +41,10 @@ Page({
     this.setData({
       goodId:options.goodId
     })
+  },
+  backToMall: function (){
+    wx.switchTab({
+      url:'../ShoppingMall/ShoppingMall'
+    })
   }
 })

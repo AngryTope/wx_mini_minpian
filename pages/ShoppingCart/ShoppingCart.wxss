@@ -1,0 +1,46 @@
+/*全局配置*/
+.page{
+  background-color: #EEE;
+}
+.show{
+  display: block;
+}
+.hide{
+  display: none;
+}
+/*空的购物车页面*/
+.nullCartContent{
+  background-color: white;
+  position: absolute;
+  top:200px;
+  left:27%;
+  text-align: center;
+}
+.nullCartImg{
+  background-color: white;
+  width: 100px;
+  height: 100px;
+}
+.txtNullCart{
+  display: block;
+  font-size: 17px;
+  color: #707070;
+  position: relative;
+  left:5%;
+}
+/*有物品的页面*/
+.CartContent{
+  background-color: white;
+}
+.editGoods{
+  width: 100%;
+  text-align: right;
+  box-shadow: 0px 1px #EEE;
+}
+.txtEditGoods{
+  font-size: 16px;
+  margin-right: 20px;
+  line-height: 40px;
+}
+
+

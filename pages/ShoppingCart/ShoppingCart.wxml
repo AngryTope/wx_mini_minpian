@@ -1,0 +1,15 @@
+<view class="page">
+  <view class="{{cartIsNull ? 'show' : 'hide'}}">
+    <view class="nullCartContent">
+      <image class="nullCartImg" src="{{nullCartImgSrc}}" mode="{{imgModeScale}}"></image>
+      <text class="txtNullCart">{{txtNullCart}}</text>
+    </view>
+  </view>
+  <view class="{{cartIsNull ? 'hide' : 'show'}}">
+    <view class="CartContent">
+      <view class="editGoods">
+        <text class="txtEditGoods">{{txtEditGoods}}</text>
+      </view>
+    </view>
+  </view>
+</view>
