@@ -17,8 +17,8 @@ Page({
         src: '../../static/images/ShoppingMall/goods.jpg'
       }
     ],
-    goodPrice: "￥158",
-    discountPrice: "￥128",
+    goodPrice: "158",
+    discountPrice: "128",
     goodSalesVolume: 8,
     imgModeScale: 'scaleToFill',
     imgModeWidthFix: 'widthFix',

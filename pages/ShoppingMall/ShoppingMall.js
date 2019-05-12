@@ -17,52 +17,52 @@ Page({
     goodList: [
       { 
         good: [
-          { goodName: '乌龙茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 0 , goodImg:"", goodPrice:"￥158",discountPrice:"￥128",goodSalesVolume:8},
-          { goodName: '龙井茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 1 , goodImg:"", goodPrice:"￥178",discountPrice:"￥138",goodSalesVolume:8},
-          { goodName: '普洱茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 2 , goodImg:"", goodPrice:"￥458",discountPrice:"￥228",goodSalesVolume:8},
-          { goodName: '铁观音', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 3 , goodImg:"", goodPrice:"￥158",discountPrice:"￥128",goodSalesVolume:8},
-          { goodName: '白茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 4 , goodImg:"", goodPrice:"￥158",discountPrice:"￥128",goodSalesVolume:8},
-          { goodName: '红茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 5 , goodImg:"", goodPrice:"￥358",discountPrice:"￥228",goodSalesVolume:8},
-          { goodName: '菊花茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 6 , goodImg:"", goodPrice:"",discountPrice:"￥158",goodSalesVolume:8}
+          { goodName: '乌龙茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 0 , goodImg:"", goodPrice:"158",discountPrice:"128",goodSalesVolume:8},
+          { goodName: '龙井茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 1 , goodImg:"", goodPrice:"178",discountPrice:"138",goodSalesVolume:8},
+          { goodName: '普洱茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 2 , goodImg:"", goodPrice:"458",discountPrice:"228",goodSalesVolume:8},
+          { goodName: '铁观音', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 3 , goodImg:"", goodPrice:"158",discountPrice:"128",goodSalesVolume:8},
+          { goodName: '白茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 4 , goodImg:"", goodPrice:"158",discountPrice:"128",goodSalesVolume:8},
+          { goodName: '红茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 5 , goodImg:"", goodPrice:"358",discountPrice:"228",goodSalesVolume:8},
+          { goodName: '菊花茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 6 , goodImg:"", goodPrice:"",discountPrice:"158",goodSalesVolume:8}
         ]
        },
       { 
         good: [
-          { goodName: '普洱茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 2 , goodImg:"", goodPrice:"￥458",discountPrice:"￥228",goodSalesVolume:8},
-          { goodName: '铁观音', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 3 , goodImg:"", goodPrice:"￥158",discountPrice:"￥128",goodSalesVolume:8}
+          { goodName: '普洱茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 2 , goodImg:"", goodPrice:"458",discountPrice:"228",goodSalesVolume:8},
+          { goodName: '铁观音', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 3 , goodImg:"", goodPrice:"158",discountPrice:"128",goodSalesVolume:8}
         ]
        },
       { 
         good: [
-          { goodName: '白茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 4, goodImg: "", goodPrice: "￥158", discountPrice: "￥128", goodSalesVolume: 8 },
-          { goodName: '红茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 5, goodImg: "", goodPrice: "￥358", discountPrice: "￥228", goodSalesVolume: 8 },
-          { goodName: '菊花茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 6, goodImg: "", goodPrice: "", discountPrice: "￥158", goodSalesVolume: 8 }
+          { goodName: '白茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 4, goodImg: "", goodPrice: "158", discountPrice: "128", goodSalesVolume: 8 },
+          { goodName: '红茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 5, goodImg: "", goodPrice: "358", discountPrice: "228", goodSalesVolume: 8 },
+          { goodName: '菊花茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 6, goodImg: "", goodPrice: "", discountPrice: "158", goodSalesVolume: 8 }
         ]
        },
       { 
         good: [
-          { goodName: '白茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 4, goodImg: "", goodPrice: "￥158", discountPrice: "￥128", goodSalesVolume: 8 },
-          { goodName: '红茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 5, goodImg: "", goodPrice: "￥358", discountPrice: "￥228", goodSalesVolume: 8 },
-          { goodName: '菊花茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 6, goodImg: "", goodPrice: "", discountPrice: "￥158", goodSalesVolume: 8 }
+          { goodName: '白茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 4, goodImg: "", goodPrice: "158", discountPrice: "128", goodSalesVolume: 8 },
+          { goodName: '红茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 5, goodImg: "", goodPrice: "358", discountPrice: "228", goodSalesVolume: 8 },
+          { goodName: '菊花茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 6, goodImg: "", goodPrice: "", discountPrice: "158", goodSalesVolume: 8 }
         ]
        },
       { 
         good: [
-          { goodName: '白茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 4, goodImg: "", goodPrice: "￥158", discountPrice: "￥128", goodSalesVolume: 8 },
-          { goodName: '红茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 5, goodImg: "", goodPrice: "￥358", discountPrice: "￥228", goodSalesVolume: 8 },
-          { goodName: '菊花茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 6, goodImg: "", goodPrice: "", discountPrice: "￥158", goodSalesVolume: 8 }
+          { goodName: '白茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 4, goodImg: "", goodPrice: "158", discountPrice: "128", goodSalesVolume: 8 },
+          { goodName: '红茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 5, goodImg: "", goodPrice: "358", discountPrice: "228", goodSalesVolume: 8 },
+          { goodName: '菊花茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 6, goodImg: "", goodPrice: "", discountPrice: "158", goodSalesVolume: 8 }
         ]
        },
       { 
         good: [
-          { goodName: '白茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 4, goodImg: "", goodPrice: "￥158", discountPrice: "￥128", goodSalesVolume: 8 },
-          { goodName: '红茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 5, goodImg: "", goodPrice: "￥358", discountPrice: "￥228", goodSalesVolume: 8 },
-          { goodName: '菊花茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 6, goodImg: "", goodPrice: "", discountPrice: "￥158", goodSalesVolume: 8 }
+          { goodName: '白茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 4, goodImg: "", goodPrice: "158", discountPrice: "128", goodSalesVolume: 8 },
+          { goodName: '红茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 5, goodImg: "", goodPrice: "358", discountPrice: "228", goodSalesVolume: 8 },
+          { goodName: '菊花茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 6, goodImg: "", goodPrice: "", discountPrice: "158", goodSalesVolume: 8 }
         ]
        },
       { 
         good: [
-          { goodName: '菊花茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 6, goodImg: "", goodPrice: "", discountPrice: "￥158", goodSalesVolume: 8 }
+          { goodName: '菊花茶', src: "../../static/images/ShoppingMall/goods.jpg", goodId: 6, goodImg: "", goodPrice: "", discountPrice: "158", goodSalesVolume: 8 }
         ]
        },
     ],

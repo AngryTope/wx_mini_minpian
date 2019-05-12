@@ -16,8 +16,8 @@
                 <view class="goodView" catchtap='goDetails' data-id="{{goodItem.goodId}}">
                   <image class="goodImg" src="{{goodItem.src}}" mode="{{imageMode}}"></image>
                   <text class="goodName">{{goodItem.goodName}}</text>
-                  <text class="goodPrice">{{goodItem.goodPrice}}</text>
-                  <text class="goodDiscountPrice">{{goodItem.discountPrice}}</text>
+                  <text class="goodPrice">￥{{goodItem.goodPrice}}</text>
+                  <text class="goodDiscountPrice">￥{{goodItem.discountPrice}}</text>
                   <text class="salesVolume">已售{{goodItem.goodSalesVolume}}件</text>
                 </view>
               </block>

@@ -8,6 +8,12 @@
 .hide{
   display: none;
 }
+.red {
+  background-color: red;
+}
+.gray {
+  background-color: #707070;
+}
 /*空的购物车页面*/
 .nullCartContent{
   background-color: white;
@@ -29,18 +35,153 @@
   left:5%;
 }
 /*有物品的页面*/
-.CartContent{
-  background-color: white;
-}
 .editGoods{
   width: 100%;
   text-align: right;
+  border-bottom: 1px solid #eee;
   box-shadow: 0px 1px #EEE;
+  background-color: white;
 }
 .txtEditGoods{
   font-size: 16px;
   margin-right: 20px;
   line-height: 40px;
 }
-
-
+/*商品列表*/
+.carts{
+  background-color: #eee;
+}
+.goodView{
+  width: 100%;
+  height: 130px;
+  background-color: white;
+  position: relative;
+  margin: 0;
+  border-bottom: 1px solid #eee;
+}
+.goodSelect{
+  position: relative;
+  bottom:30px;
+  left:8px;
+}
+.goodImg{
+  width: 100px;
+  height: 100px;
+  position: relative;
+  top:15px;
+  left:13px;
+}
+.goodName{
+  font-size: 13px;
+  position: absolute;
+  top:15px;
+  left:150px;
+}
+.goodStock{
+  font-size: 13px;
+  position: absolute;
+  top:35px;
+  left:150px;
+  color:#707070;
+}
+.goodDiscountPrice{
+  font-size: 16px;
+  color: red;
+  position: relative;
+  left:20px;
+}
+.deleteGood{
+  font-size: 13px;
+  width: 35px;
+  height: 20px;
+  background-color: red;
+  color: white;
+  position: absolute;
+  top:20px;
+  right:20px;
+  text-align: center;
+  border-radius: 5px;
+}
+.goodCount{
+  display: inline-block;
+  width: 100px;
+  border:1px solid #eee;
+  position: absolute;
+  right:20px;
+  bottom: 15px;
+  font-size: 13px;
+  margin: 0;
+  padding:0;
+}
+.decrease{
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+}
+.goodCountInput{
+  display: inline-block;
+  width: 38px;
+  height: 20px;
+  overflow:visible;
+  border-left:1px solid #eee;
+  border-right:1px solid #eee;
+  text-align: center;
+}
+.increase{
+  display: inline-block;
+  width: 30px;
+  height: 20px;
+  text-align: center;
+}
+.foot{
+  height: 50px;
+  width: 100%;
+  background-color: white;
+}
+/*底部*/
+.totalCountView{
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  bottom:0;
+  left:0;
+  background-color: white;
+  z-index: 10;
+}
+.txtChooseAll{
+  margin-left: 3px;
+  font-size: 13px;
+}
+.chooseAllView{
+  float: left;
+  padding-left:8px;
+  padding-top:10px;
+}
+.total{
+  font-size: 16px;
+}
+.totalPrice{
+  position: relative;
+  top: 1px;
+  font-size: 18px;
+  color: red;
+}
+.totalView{
+  padding-top:10px;
+  float: right;
+}
+.settlement{
+  margin-left: 15px;
+  width: 25%;
+  height: 50px;
+  float: right;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  position: relative;
+}
+.txtSettlement{
+  position: relative;
+  bottom: 10px;
+}

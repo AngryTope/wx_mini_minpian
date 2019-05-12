@@ -12,8 +12,8 @@
   </view>
   <view class="goodPriceInfo">
     <text class="goodName">{{goodName}}</text>
-    <text class="discountPrice">{{discountPrice}}</text>
-    <text class="goodPrice">{{goodPrice}}</text>
+    <text class="discountPrice">￥{{discountPrice}}</text>
+    <text class="goodPrice">￥{{goodPrice}}</text>
     <text class="goodSalesVolume">已售{{goodSalesVolume}}件</text>
   </view>
   <view class="goodDetailInfo">
