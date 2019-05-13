@@ -33,7 +33,7 @@
       <image class="imgIcon" mode="imgModeScale" src="{{consultIconSrc}}"></image>
       <text class="txtIcon">{{txtConsultIcon}}</text>
     </view>
-    <view class="menuIcon">
+    <view class="menuIcon" bindtap="goCart">
       <image class="imgIcon" mode="imgModeScale" src="{{cartIconSrc}}"></image>
       <text class="txtIcon">{{txtCartIcon}}</text>
     </view>

@@ -66,7 +66,9 @@ Page({
         ]
        },
     ],
-    goodDetailId:0
+    goodDetailId:0,
+    cartIconSrc:"../../static/images/ShoppingMall/cartMenu.png",
+    txtCart:"购物车"
   },
   onLoad: function () {
     this.setData({
@@ -89,13 +91,14 @@ Page({
       })
     }
   },
-  goDetails:function (e) {
-    var that = this;
-    that.setData({
-      goodDetailId: e.currentTarget.dataset.id
-    })
+  goDetails: function (e) {
     wx.navigateTo({
-      url: '../GoodsDetail/GoodsDetail?goodId=' + that.data.goodDetailId
+      url: '../GoodsDetail/GoodsDetail?goodId=' + e.currentTarget.dataset.id
+    })
+  },
+  goCart: function () {
+    wx.navigateTo({
+      url: '../ShoppingCart/ShoppingCart'
     })
   }
 })

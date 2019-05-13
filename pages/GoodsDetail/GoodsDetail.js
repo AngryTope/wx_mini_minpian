@@ -42,9 +42,14 @@ Page({
       goodId:options.goodId
     })
   },
-  backToMall: function (){
+  backToMall: function () {
     wx.switchTab({
       url:'../ShoppingMall/ShoppingMall'
+    })
+  },
+  goCart: function () {
+    wx.navigateTo({
+      url: '../ShoppingCart/ShoppingCart'
     })
   }
 })

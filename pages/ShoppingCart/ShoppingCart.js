@@ -264,5 +264,10 @@ Page({
     this.setData({                              
       totalPrice: total.toFixed(2)
     });
-  }
+  },
+  goDetails: function (e) {
+    wx.navigateTo({
+      url: '../GoodsDetail/GoodsDetail?goodId=' + e.currentTarget.dataset.id
+    })
+  },
 })

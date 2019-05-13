@@ -27,4 +27,10 @@
     </view>
     <view class="liner"></view>
   </view>
+  <view class="fixedMenu">
+    <view class="cart" bindtap="goCart">
+      <image src="{{cartIconSrc}}" mode="imageMode" class="cartImg"></image>
+      <text class="txtCart">{{txtCart}}</text>
+    </view>
+  </view>
 </view>

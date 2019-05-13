@@ -85,3 +85,31 @@
   bottom: 6px;
   right: 8px;
 }
+/*悬浮按钮*/
+.fixedMenu{
+  position: fixed;
+  right: 20px;
+  top:400px;
+  font-size: 10px;
+  text-align: center;
+  color: #707070;
+}
+.cart{
+  width: 60px;
+  height: 60px;
+  border-radius: 30px;
+  background-color: rgb(245, 245, 245);
+}
+.cartImg{
+  width: 30px;
+  height: 30px;
+  display: block;
+  margin: auto;
+  position: relative;
+  right: 1px;
+  top: 9px;
+}
+.txtCart{
+  position: relative;
+  top:6px;
+}

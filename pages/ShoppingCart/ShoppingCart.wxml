@@ -12,7 +12,7 @@
       </view>
       <view class="carts">
         <block wx:for="{{carts}}" wx:for-item="goodItem" wx:key="{{index}}">
-          <view class="goodView" catchtap='goDetails' data-id="{{goodItem.goodId}}">
+          <view class="goodView" bindtap='goDetails' data-id="{{goodItem.goodId}}">
             <icon wx:if="{{goodItem.selected}}" color="red" type="success" data-index="{{index}}"  class="goodSelect" catchtap="selectList"/>
             <icon wx:else type="circle" class="goodSelect" data-index="{{index}}" catchtap="selectList"/>
             <image class="goodImg" src="{{goodItem.goodImg}}" mode="{{imgModeScale}}"></image>
@@ -21,7 +21,7 @@
             <text class="goodDiscountPrice">￥{{goodItem.discountPrice}}</text>
             <view class="goodCount">
               <view class="decrease" catchtap="decreaseCount" data-index="{{index}}"><text>-</text></view>
-              <input class="goodCountInput" type="number" value="{{goodItem.goodCount}}" data-index="{{index}}" bindblur="updateGoodCount" bindinput="validateData"></input>
+              <input class="goodCountInput" type="number" value="{{goodItem.goodCount}}" data-index="{{index}}" catchtap='inputCatchTap' bindblur="updateGoodCount" bindinput="validateData"></input>
               <view class="increase" catchtap="increaseCount" data-index="{{index}}"><text>+</text></view>
             </view>
             <view class="deleteGood {{showDelete ? 'show' : 'hide'}}" catchtap="deleteList" data-index="{{index}}"><text>{{txtDeleteGood}}</text></view>

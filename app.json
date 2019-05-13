@@ -1,12 +1,13 @@
 {
   "pages":[
   
-    "pages/ShoppingCart/ShoppingCart",
+    
     "pages/ShoppingMall/ShoppingMall",
     "pages/businessCard/businessCard",
     "pages/interaction/interaction",
     "pages/OfficialWeb/OfficialWeb",
-    "pages/GoodsDetail/GoodsDetail"
+    "pages/GoodsDetail/GoodsDetail",
+    "pages/ShoppingCart/ShoppingCart"
   ],
 
   "window":{
