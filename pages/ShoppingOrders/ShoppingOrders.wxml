@@ -1,0 +1,54 @@
+<view class="main">
+  <navigator url="">
+    <view wx:if="{{hasAddress}}" class="address">
+      <text class="address-name">收货人: {{address.name}}</text>
+      <text class="address-phone">电话: {{address.phone}}</text>
+      <view class="address-detail">收货地址：{{address.detail}}</view>
+      <image mode="widthFix" src="../../static/images/ShoppingOrders/rightArrow.png" class="address-rightArrow"></image>
+      <image mode="widthFix" src="../../static/images/ShoppingOrders/address.png" class="address-local"></image>
+    </view>
+    <view wx:else class="no-address">
+      <text class="txt-no-address">还没有收货地址，点击添加~</text>
+      <image mode="widthFix" src="../../static/images/ShoppingOrders/rightArrow.png" class="no-address-rightArrow"></image>
+      <image mode="widthFix" src="../../static/images/ShoppingOrders/address.png" class="no-address-local"></image>
+    </view>
+  </navigator>
+  <view class="orders-box">
+    <block wx:for="{{order}}" wx:for-item="goodItem" wx:key="{{index}}">
+      <view class="goodView">
+        <image class="goodImg" src="{{goodItem.goodImg}}" mode="scaleToFill"></image>
+        <text class="goodName">{{goodItem.goodName}}</text>
+        <text class="goodDiscountPrice">￥{{goodItem.discountPrice}}</text>
+        <view class="goodCount">
+          <view class="decrease" catchtap="decreaseCount" data-index="{{index}}"><text>-</text></view>
+          <input class="goodCountInput" type="number" value="{{goodItem.goodCount}}" data-index="{{index}}" bindblur="updateGoodCount" bindinput="validateData"></input>
+          <view class="increase" catchtap="increaseCount" data-index="{{index}}"><text>+</text></view>
+        </view>
+      </view>
+    </block>
+  </view>
+  <view class="order-info">
+    <view class="userMsg">
+      <text class="txtUserMsg">买家留言</text>
+      <input class="InputUserMsg" placeholder="选填" ></input>
+    </view>
+    <view class="goodsPrice">
+      <text class="txtGoodsPrice">商品金额</text>
+      <text class="money">￥{{goodPrice}}</text>
+    </view>
+    <view class="goodsfreight">
+      <text class="txtGoodsFreight">运费</text>
+      <text class="money">￥{{goodsfreight}}</text>
+    </view>
+  </view>
+  <view class="foot"></view>
+  <view class="fixedBar">
+    <view class="pay">
+      <text class="txtPay">{{txtPay}}</text>
+    </view>
+    <view class="totalPriceView">
+      <text class="count">总计：</text>
+      <text class="count totalPrice">￥{{totalPrice}}</text>
+    </view>
+  </view>
+</view>

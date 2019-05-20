@@ -41,8 +41,9 @@ Page({
       let txtSettlement = this.data.txtSettlement;
       let carts = this.data.carts;
       if (txtSettlement == "结算") {
-
-
+        wx.navigateTo({
+          url: '../ShoppingOrders/ShoppingOrders'
+        })
       } else if (txtSettlement == "删除") {
         for (let i = 0; i < carts.length; i++) {
           if (carts[i].selected == true) {
@@ -163,7 +164,7 @@ Page({
     goodCount++;
     if (goodCount > carts[index].goodStock) {
       wx.showToast({
-        title: '数量超过范围',
+        title: '库存不够啦，亲~',
         icon: 'none',
         mask: true
       })
@@ -183,7 +184,7 @@ Page({
     let goodCount = carts[index].goodCount;
     if (goodCount <= 1) {
       wx.showToast({
-        title: '数量最低为1',
+        title: '数量最低为1哦',
         icon: 'none',
         mask: true
       })
@@ -213,7 +214,7 @@ Page({
     if (goodCount > carts[index].goodStock)
     {
       wx.showToast({
-        title: '数量超过范围',
+        title: '库存不够啦，亲~',
         icon: 'none',
         mask: true
       })

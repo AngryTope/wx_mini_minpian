@@ -1,15 +1,13 @@
 {
   "pages":[
-  
-    
+    "pages/ShoppingCart/ShoppingCart",
+    "pages/ShoppingOrders/ShoppingOrders",
     "pages/ShoppingMall/ShoppingMall",
     "pages/businessCard/businessCard",
     "pages/interaction/interaction",
     "pages/OfficialWeb/OfficialWeb",
-    "pages/GoodsDetail/GoodsDetail",
-    "pages/ShoppingCart/ShoppingCart"
+    "pages/GoodsDetail/GoodsDetail"
   ],
-
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#000",
@@ -18,7 +16,6 @@
     "enablePullDownRefresh":true,
     "backgroundColor":"#eee"
   },
-
   "tabBar":{
     "color":"#707070",
     "selectedColor":"#46cced",
